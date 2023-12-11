@@ -52,8 +52,8 @@
             this.tabOpen = new System.Windows.Forms.TabPage();
             this.btnOpen = new System.Windows.Forms.Button();
             this.tabScelton = new System.Windows.Forms.TabPage();
-            this.frameCaptureTimer = new System.Windows.Forms.Timer(this.components);
             this.tabContact = new System.Windows.Forms.TabPage();
+            this.frameCaptureTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -238,15 +238,15 @@
             this.tabScelton.Name = "tabScelton";
             this.tabScelton.UseVisualStyleBackColor = true;
             // 
-            // frameCaptureTimer
-            // 
-            this.frameCaptureTimer.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // tabContact
             // 
             resources.ApplyResources(this.tabContact, "tabContact");
             this.tabContact.Name = "tabContact";
             this.tabContact.UseVisualStyleBackColor = true;
+            // 
+            // frameCaptureTimer
+            // 
+            this.frameCaptureTimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // NormalUser
             // 

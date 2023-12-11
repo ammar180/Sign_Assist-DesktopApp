@@ -41,12 +41,7 @@ namespace SignTranslate
             fill_listBox();
             startDeafMuteWindow();
             currentForm2Instance.TextChangedInSecondForm += MainForm_TextChangedInSecondForm;
-            // Initialize the frame capture timer
-            frameCaptureTimer = new Timer();
-            frameCaptureTimer.Interval = 1000/33;
-
-            // Start the timer when the form loads
-            frameCaptureTimer.Start();
+            
         }
         private void MainForm_TextChangedInSecondForm(object sender, EventArgs e)
         {
@@ -150,11 +145,16 @@ namespace SignTranslate
                 assign.Enabled = true;
                 isRecording = false;
                 lblRecordingDuration.Text = string.Empty;
-                frameCaptureTimer.Stop();
             }
         }
         private void add_Click(object sender, EventArgs e)
         {
+            // Initialize the frame capture timer
+            frameCaptureTimer = new Timer();
+            frameCaptureTimer.Interval = 1000 / 33;
+            // Start timer
+            frameCaptureTimer.Start();
+
             startCapturing();
             isCapturing = true;
             InputText.Enabled = true;
