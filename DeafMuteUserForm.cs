@@ -68,5 +68,10 @@ namespace SignTranslate
                 e.Handled = true; // Prevent the Enter key from being inserted into the TextBox
             }
         }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"D:\VScode_project\Visual Studio 2022\SLTS project\Sign-Language-Translator-newclassifier\index.html");
+        }
     }
 }

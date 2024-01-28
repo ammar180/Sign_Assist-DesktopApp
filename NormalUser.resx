@@ -123,11 +123,11 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="listSent.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 17pt</value>
+    <value>Microsoft Sans Serif, 16pt</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="listSent.ItemHeight" type="System.Int32, mscorlib">
-    <value>32</value>
+    <value>31</value>
   </data>
   <data name="listSent.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 18</value>
@@ -136,7 +136,7 @@
     <value>True</value>
   </data>
   <data name="listSent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 420</value>
+    <value>361, 407</value>
   </data>
   <data name="listSent.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -163,7 +163,7 @@
     <value>3, 18</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1052, 541</value>
+    <value>663, 541</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -190,7 +190,7 @@
     <value>False</value>
   </data>
   <data name="InputText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20pt</value>
+    <value>Microsoft Sans Serif, 16pt</value>
   </data>
   <data name="InputText.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -199,7 +199,7 @@
     <value>True</value>
   </data>
   <data name="InputText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>566, 68</value>
+    <value>355, 68</value>
   </data>
   <data name="InputText.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -229,7 +229,7 @@
     <value>0, 80</value>
   </data>
   <data name="assign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>566, 35</value>
+    <value>355, 35</value>
   </data>
   <data name="assign.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -248,6 +248,81 @@
   </data>
   <data name="&gt;&gt;assign.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;apperSign.Name" xml:space="preserve">
+    <value>apperSign</value>
+  </data>
+  <data name="&gt;&gt;apperSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;apperSign.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;apperSign.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;add.Name" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="&gt;&gt;add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;add.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;add.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;delete.Name" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="&gt;&gt;delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;delete.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 790</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>List Of Sentences</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="apperSign.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -284,7 +359,7 @@
     <value>NoControl</value>
   </data>
   <data name="apperSign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 470</value>
+    <value>97, 460</value>
   </data>
   <data name="apperSign.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>41, 41</value>
@@ -331,7 +406,7 @@
 </value>
   </data>
   <data name="add.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 470</value>
+    <value>3, 460</value>
   </data>
   <data name="add.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>41, 41</value>
@@ -360,18 +435,6 @@
   <data name="&gt;&gt;add.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 18</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>566, 115</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
@@ -388,10 +451,10 @@
     <value>Bottom</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 587</value>
+    <value>3, 614</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 176</value>
+    <value>361, 173</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -410,6 +473,30 @@
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 115</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="delete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -430,7 +517,7 @@
 </value>
   </data>
   <data name="delete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 470</value>
+    <value>50, 460</value>
   </data>
   <data name="delete.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>41, 41</value>
@@ -459,31 +546,67 @@
   <data name="&gt;&gt;delete.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="&gt;&gt;lblRecordingDuration.Name" xml:space="preserve">
+    <value>lblRecordingDuration</value>
+  </data>
+  <data name="&gt;&gt;lblRecordingDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecordingDuration.Parent" xml:space="preserve">
+    <value>groupVideoRecord</value>
+  </data>
+  <data name="&gt;&gt;lblRecordingDuration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnStartRecording.Name" xml:space="preserve">
+    <value>btnStartRecording</value>
+  </data>
+  <data name="&gt;&gt;btnStartRecording.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartRecording.Parent" xml:space="preserve">
+    <value>groupVideoRecord</value>
+  </data>
+  <data name="&gt;&gt;btnStartRecording.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDevices.Name" xml:space="preserve">
+    <value>comboBoxDevices</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDevices.Parent" xml:space="preserve">
+    <value>groupVideoRecord</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDevices.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupVideoRecord.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="groupVideoRecord.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>578, 766</value>
+  <data name="groupVideoRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 755</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="groupVideoRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>List Of Sentences</value>
+  <data name="groupVideoRecord.Text" xml:space="preserve">
+    <value>Video</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;groupVideoRecord.Name" xml:space="preserve">
+    <value>groupVideoRecord</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupVideoRecord.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="&gt;&gt;groupVideoRecord.Parent" xml:space="preserve">
+    <value>tabRecord</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupVideoRecord.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="lblRecordingDuration.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -493,10 +616,10 @@
     <value>Microsoft Sans Serif, 8pt</value>
   </data>
   <data name="lblRecordingDuration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 706</value>
+    <value>127, 730</value>
   </data>
   <data name="lblRecordingDuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>781, 22</value>
+    <value>392, 22</value>
   </data>
   <data name="lblRecordingDuration.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -553,7 +676,7 @@
     <value>Right</value>
   </data>
   <data name="comboBoxDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>908, 559</value>
+    <value>519, 559</value>
   </data>
   <data name="comboBoxDevices.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 24</value>
@@ -573,54 +696,6 @@
   <data name="&gt;&gt;comboBoxDevices.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="groupVideoRecord.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="groupVideoRecord.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="groupVideoRecord.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1058, 731</value>
-  </data>
-  <data name="groupVideoRecord.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="groupVideoRecord.Text" xml:space="preserve">
-    <value>Video</value>
-  </data>
-  <data name="&gt;&gt;groupVideoRecord.Name" xml:space="preserve">
-    <value>groupVideoRecord</value>
-  </data>
-  <data name="&gt;&gt;groupVideoRecord.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupVideoRecord.Parent" xml:space="preserve">
-    <value>tabRecord</value>
-  </data>
-  <data name="&gt;&gt;groupVideoRecord.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="transText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="transText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16pt</value>
-  </data>
-  <data name="transText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 18</value>
-  </data>
-  <data name="transText.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="transText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 92</value>
-  </data>
-  <data name="transText.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="transText.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
   <data name="&gt;&gt;transText.Name" xml:space="preserve">
     <value>transText</value>
   </data>
@@ -637,10 +712,10 @@
     <value>Fill</value>
   </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 775</value>
+    <value>3, 799</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>578, 225</value>
+    <value>367, 253</value>
   </data>
   <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -660,6 +735,39 @@
   <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="transText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="transText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="transText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="transText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="transText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 57</value>
+  </data>
+  <data name="transText.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="transText.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;transText.Name" xml:space="preserve">
+    <value>transText</value>
+  </data>
+  <data name="&gt;&gt;transText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;transText.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;transText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -670,7 +778,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabRecord.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1064, 737</value>
+    <value>675, 761</value>
   </data>
   <data name="tabRecord.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -689,6 +797,258 @@
   </data>
   <data name="&gt;&gt;tabRecord.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="ChangeQR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="ChangeQR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChangeQR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 551</value>
+  </data>
+  <data name="ChangeQR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 35</value>
+  </data>
+  <data name="ChangeQR.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ChangeQR.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="&gt;&gt;ChangeQR.Name" xml:space="preserve">
+    <value>ChangeQR</value>
+  </data>
+  <data name="&gt;&gt;ChangeQR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangeQR.Parent" xml:space="preserve">
+    <value>tabQRcode</value>
+  </data>
+  <data name="&gt;&gt;ChangeQR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textURL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="textURL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 496</value>
+  </data>
+  <data name="textURL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>663, 38</value>
+  </data>
+  <data name="textURL.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textURL.Name" xml:space="preserve">
+    <value>textURL</value>
+  </data>
+  <data name="&gt;&gt;textURL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textURL.Parent" xml:space="preserve">
+    <value>tabQRcode</value>
+  </data>
+  <data name="&gt;&gt;textURL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="qrCodeBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="qrCodeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="qrCodeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 473</value>
+  </data>
+  <data name="qrCodeBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="qrCodeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;qrCodeBox.Name" xml:space="preserve">
+    <value>qrCodeBox</value>
+  </data>
+  <data name="&gt;&gt;qrCodeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qrCodeBox.Parent" xml:space="preserve">
+    <value>tabQRcode</value>
+  </data>
+  <data name="&gt;&gt;qrCodeBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabQRcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabQRcode.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabQRcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 761</value>
+  </data>
+  <data name="tabQRcode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabQRcode.Text" xml:space="preserve">
+    <value>QRcode</value>
+  </data>
+  <data name="&gt;&gt;tabQRcode.Name" xml:space="preserve">
+    <value>tabQRcode</value>
+  </data>
+  <data name="&gt;&gt;tabQRcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabQRcode.Parent" xml:space="preserve">
+    <value>tabControlGetSign</value>
+  </data>
+  <data name="&gt;&gt;tabQRcode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Name" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Parent" xml:space="preserve">
+    <value>tabOpen</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabOpen.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 761</value>
+  </data>
+  <data name="tabOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabOpen.Text" xml:space="preserve">
+    <value>Import Sign as Video</value>
+  </data>
+  <data name="&gt;&gt;tabOpen.Name" xml:space="preserve">
+    <value>tabOpen</value>
+  </data>
+  <data name="&gt;&gt;tabOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabOpen.Parent" xml:space="preserve">
+    <value>tabControlGetSign</value>
+  </data>
+  <data name="&gt;&gt;tabOpen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabScelton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabScelton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 761</value>
+  </data>
+  <data name="tabScelton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabScelton.Text" xml:space="preserve">
+    <value>Get Sign as Scelton</value>
+  </data>
+  <data name="&gt;&gt;tabScelton.Name" xml:space="preserve">
+    <value>tabScelton</value>
+  </data>
+  <data name="&gt;&gt;tabScelton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabScelton.Parent" xml:space="preserve">
+    <value>tabControlGetSign</value>
+  </data>
+  <data name="&gt;&gt;tabScelton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabContact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabContact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabContact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 761</value>
+  </data>
+  <data name="tabContact.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabContact.Text" xml:space="preserve">
+    <value>Contact to Interprater</value>
+  </data>
+  <data name="&gt;&gt;tabContact.Name" xml:space="preserve">
+    <value>tabContact</value>
+  </data>
+  <data name="&gt;&gt;tabContact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabContact.Parent" xml:space="preserve">
+    <value>tabControlGetSign</value>
+  </data>
+  <data name="&gt;&gt;tabContact.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabControlGetSign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlGetSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 3</value>
+  </data>
+  <data name="tabControlGetSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>683, 790</value>
+  </data>
+  <data name="tabControlGetSign.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tabControlGetSign.Name" xml:space="preserve">
+    <value>tabControlGetSign</value>
+  </data>
+  <data name="&gt;&gt;tabControlGetSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlGetSign.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tabControlGetSign.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 1055</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="groupBox4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControlGetSign" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35.13839,Percent,64.86161" /&gt;&lt;Rows Styles="Percent,75.47358,Percent,24.52642" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="btnOpen.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -720,138 +1080,6 @@
   <data name="&gt;&gt;btnOpen.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tabOpen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="tabOpen.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1064, 640</value>
-  </data>
-  <data name="tabOpen.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabOpen.Text" xml:space="preserve">
-    <value>Import Sign as Video</value>
-  </data>
-  <data name="&gt;&gt;tabOpen.Name" xml:space="preserve">
-    <value>tabOpen</value>
-  </data>
-  <data name="&gt;&gt;tabOpen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabOpen.Parent" xml:space="preserve">
-    <value>tabControlGetSign</value>
-  </data>
-  <data name="&gt;&gt;tabOpen.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabScelton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="tabScelton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1064, 640</value>
-  </data>
-  <data name="tabScelton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tabScelton.Text" xml:space="preserve">
-    <value>Get Sign as Scelton</value>
-  </data>
-  <data name="&gt;&gt;tabScelton.Name" xml:space="preserve">
-    <value>tabScelton</value>
-  </data>
-  <data name="&gt;&gt;tabScelton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabScelton.Parent" xml:space="preserve">
-    <value>tabControlGetSign</value>
-  </data>
-  <data name="&gt;&gt;tabScelton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabContact.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="tabContact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabContact.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1064, 640</value>
-  </data>
-  <data name="tabContact.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tabContact.Text" xml:space="preserve">
-    <value>Contact to Interprater</value>
-  </data>
-  <data name="&gt;&gt;tabContact.Name" xml:space="preserve">
-    <value>tabContact</value>
-  </data>
-  <data name="&gt;&gt;tabContact.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabContact.Parent" xml:space="preserve">
-    <value>tabControlGetSign</value>
-  </data>
-  <data name="&gt;&gt;tabContact.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tabControlGetSign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlGetSign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 3</value>
-  </data>
-  <data name="tabControlGetSign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1072, 766</value>
-  </data>
-  <data name="tabControlGetSign.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;tabControlGetSign.Name" xml:space="preserve">
-    <value>tabControlGetSign</value>
-  </data>
-  <data name="&gt;&gt;tabControlGetSign.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControlGetSign.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tabControlGetSign.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1662, 1003</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="groupBox4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControlGetSign" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35.13839,Percent,64.86161" /&gt;&lt;Rows Styles="Percent,76.96909,Percent,23.03091" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <metadata name="frameCaptureTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -862,7 +1090,7 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1662, 1003</value>
+    <value>1062, 1055</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1280,11 +1508,8 @@
         ehrN19zq+QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1024, 768</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+    <value>Manual</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Infinty Sign</value>

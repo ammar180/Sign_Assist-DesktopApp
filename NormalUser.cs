@@ -12,6 +12,7 @@ using AForge.Video.DirectShow;
 using System.Windows.Forms;
 using OpenCvSharp;
 using OpenCvSharp.Extensions;
+using QRCoder;
 
 namespace SignTranslate
 {
@@ -287,10 +288,44 @@ namespace SignTranslate
                 currentForm2Instance.Size = secondMonitor.Bounds.Size;
                 currentForm2Instance.WindowState = FormWindowState.Maximized;
             }
+            else
+            {
+                // Set the start position to manual
+                currentForm2Instance.StartPosition = FormStartPosition.Manual;
+
+                // Get the right side of the screen
+                int rightSide = Screen.PrimaryScreen.WorkingArea.Right;
+
+                // Set the location of the form to start on the right side
+                currentForm2Instance.Location = new System.Drawing.Point(rightSide - currentForm2Instance.Width, 0);
+                currentForm2Instance.Height = Screen.PrimaryScreen.WorkingArea.Height;
+                currentForm2Instance.Width = Screen.PrimaryScreen.WorkingArea.Width / 2;
+
+
+            }
         }
 
         private void transText_TextChanged(object sender, EventArgs e)
         {
+        }
+
+        private void ChangeQR_Click(object sender, EventArgs e)
+        {
+            QRCodeGenerator QRgen = new QRCodeGenerator();
+            if (textURL.Text != "")
+            {
+
+                var QRdata = QRgen.CreateQrCode(textURL.Text, QRCodeGenerator.ECCLevel.H);
+                var QRcode = new QRCode(QRdata);
+                qrCodeBox.Image = QRcode.GetGraphic(50);
+            }
+            else
+            {
+                var QRdata = QRgen.CreateQrCode("https://docs.google.com/forms/d/1cN7aFZQmxg1mrmpM98-GdsZek2G12RJJ8m8J9HsfJ3I/edit", QRCodeGenerator.ECCLevel.H);
+                var QRcode = new QRCode(QRdata);
+                qrCodeBox.Image = QRcode.GetGraphic(50);
+            }
+
         }
     }
 }

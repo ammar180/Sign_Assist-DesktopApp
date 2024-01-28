@@ -54,6 +54,10 @@
             this.tabScelton = new System.Windows.Forms.TabPage();
             this.tabContact = new System.Windows.Forms.TabPage();
             this.frameCaptureTimer = new System.Windows.Forms.Timer(this.components);
+            this.tabQRcode = new System.Windows.Forms.TabPage();
+            this.qrCodeBox = new System.Windows.Forms.PictureBox();
+            this.textURL = new System.Windows.Forms.TextBox();
+            this.ChangeQR = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -64,6 +68,8 @@
             this.tabControlGetSign.SuspendLayout();
             this.tabRecord.SuspendLayout();
             this.tabOpen.SuspendLayout();
+            this.tabQRcode.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qrCodeBox)).BeginInit();
             this.SuspendLayout();
             // 
             // listSent
@@ -204,6 +210,7 @@
             // tabControlGetSign
             // 
             this.tabControlGetSign.Controls.Add(this.tabRecord);
+            this.tabControlGetSign.Controls.Add(this.tabQRcode);
             this.tabControlGetSign.Controls.Add(this.tabOpen);
             this.tabControlGetSign.Controls.Add(this.tabScelton);
             this.tabControlGetSign.Controls.Add(this.tabContact);
@@ -248,6 +255,33 @@
             // 
             this.frameCaptureTimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // tabQRcode
+            // 
+            this.tabQRcode.Controls.Add(this.ChangeQR);
+            this.tabQRcode.Controls.Add(this.textURL);
+            this.tabQRcode.Controls.Add(this.qrCodeBox);
+            resources.ApplyResources(this.tabQRcode, "tabQRcode");
+            this.tabQRcode.Name = "tabQRcode";
+            this.tabQRcode.UseVisualStyleBackColor = true;
+            // 
+            // qrCodeBox
+            // 
+            resources.ApplyResources(this.qrCodeBox, "qrCodeBox");
+            this.qrCodeBox.Name = "qrCodeBox";
+            this.qrCodeBox.TabStop = false;
+            // 
+            // textURL
+            // 
+            resources.ApplyResources(this.textURL, "textURL");
+            this.textURL.Name = "textURL";
+            // 
+            // ChangeQR
+            // 
+            resources.ApplyResources(this.ChangeQR, "ChangeQR");
+            this.ChangeQR.Name = "ChangeQR";
+            this.ChangeQR.UseVisualStyleBackColor = true;
+            this.ChangeQR.Click += new System.EventHandler(this.ChangeQR_Click);
+            // 
             // NormalUser
             // 
             resources.ApplyResources(this, "$this");
@@ -255,7 +289,6 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.IsMdiContainer = true;
             this.Name = "NormalUser";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.NormalUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -269,6 +302,9 @@
             this.tabControlGetSign.ResumeLayout(false);
             this.tabRecord.ResumeLayout(false);
             this.tabOpen.ResumeLayout(false);
+            this.tabQRcode.ResumeLayout(false);
+            this.tabQRcode.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qrCodeBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -299,6 +335,10 @@
         private System.Windows.Forms.Button btnOpen;
         public System.Windows.Forms.TextBox InputText;
         private System.Windows.Forms.TabPage tabContact;
+        private System.Windows.Forms.TabPage tabQRcode;
+        public System.Windows.Forms.Button ChangeQR;
+        private System.Windows.Forms.TextBox textURL;
+        private System.Windows.Forms.PictureBox qrCodeBox;
     }
 }
 
