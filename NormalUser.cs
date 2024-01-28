@@ -98,7 +98,7 @@ namespace SignTranslate
                 comboBoxDevices.Items.Add(device.Name);
 
             if (comboBoxDevices.Items.Count > 0)
-                comboBoxDevices.SelectedIndex = 1;
+                comboBoxDevices.SelectedIndex = 0;
             else
                 MessageBox.Show("No video capture devices found.");
         }
@@ -128,7 +128,8 @@ namespace SignTranslate
             if (!isRecording)
             {
                 // Start recording
-                videoWriter = new VideoWriter($"Data\\Videos\\{InputText.Text}.avi", FourCC.XVID, 30, new OpenCvSharp.Size(1280, 720)); // Adjust frame size and other parameters as needed
+                string theNameOfVideo = $"Data\\Videos\\{InputText.Text}.avi";
+                videoWriter = new VideoWriter(theNameOfVideo, FourCC.XVID, 30,  new OpenCvSharp.Size(1280, 720)); // Adjust frame size and other parameters as needed
                 isRecording = true;
                 btnStartRecording.Text = "Stop Record";
             }
@@ -145,6 +146,7 @@ namespace SignTranslate
                 assign.Enabled = true;
                 isRecording = false;
                 lblRecordingDuration.Text = string.Empty;
+                frameCaptureTimer.Stop();
             }
         }
         private void add_Click(object sender, EventArgs e)
@@ -152,9 +154,9 @@ namespace SignTranslate
             // Initialize the frame capture timer
             frameCaptureTimer = new Timer();
             frameCaptureTimer.Interval = 1000 / 33;
-            // Start timer
-            frameCaptureTimer.Start();
 
+            // Start the timer when the form loads
+            frameCaptureTimer.Start();
             startCapturing();
             isCapturing = true;
             InputText.Enabled = true;
